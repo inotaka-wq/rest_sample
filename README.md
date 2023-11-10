@@ -12,7 +12,7 @@ Post
 curl -X POST --data-urlencode 'name=太郎' http://localhost:8080/greeting_post | jq .
 curl -X POST -d 'name=taro' http://localhost:8080/greeting_post | jq .
 curl -X POST http://localhost:8080/greeting_post | jq .
-aaa
+
 
 Put
 curl -X PUT -d 'name=iiro' http://localhost:8080/greeting_put | jq .
