@@ -7,11 +7,10 @@ services:
     command: mvn spring-boot:run
     volumes:
       - .:/opt/demo
-      - m2:/root/.m2
+#      - m2:/root/.m2
     working_dir: /opt/demo
     ports:
       - "8080:8080"
-      - "5005:5005"
     environment:
       TZ: Asia/Tokyo
 

@@ -1,7 +1,11 @@
 # rest_sample
 
-brew install jq
 
+https://note.com/hiroaki_abe_2004/n/nb4cc263f8234
+
+
+
+brew install jq
 
 Get
 curl http://localhost:8080/greeting | jq .
