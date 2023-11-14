@@ -9,7 +9,10 @@ brew install jq
 
 Get
 curl http://localhost:8080/greeting | jq .
-curl http://localhost:8080/greeting?name=User  | jq .
+curl http://localhost:8080/greeting?name=User | jq .
+curl http://localhost:8080/book/1 | jq .
+curl http://localhost:8080/book_all | jq .
+
 
 
 Post
@@ -25,4 +28,7 @@ curl -X PUT http://localhost:8080/greeting_put | jq .
 Delete
 curl -X DELETE -d 'name=saburo' http://localhost:8080/greeting_delete | jq .
 curl -X DELETE http://localhost:8080/greeting_delete | jq .
+
+
+
 
